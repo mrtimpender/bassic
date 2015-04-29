@@ -1,0 +1,40 @@
+#masthead {
+	background-color:blue;
+}
+
+#site-logo {
+	float:left;
+	width:150px;
+}
+
+#site-branding{
+	float:left;
+	width: 400px;
+}
+
+#site-navigation{
+	float:right;
+
+	.menu-item{
+		display: inline-block;
+		margin-left: 1em;
+	
+		a{
+		color: black;
+		font-family: $serif;
+		font-weight: 100;
+		font-size: 1.25em;
+		text-decoration: none;
+		}
+
+		&:hover{
+			color: $yellow;
+		}
+
+	}
+}
+
+
+.menu-toggle {
+	display:none;
+}

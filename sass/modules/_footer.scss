@@ -1,0 +1,39 @@
+#colophon {
+	background: $footerbg;
+	color:white;
+
+	.menu {
+			text-align:right;
+
+				.menu-item{
+				display: inline-block;
+				margin-left: 1em;
+			
+					a{
+					color: black;
+					font-family: $serif;
+					font-weight: 100;
+					font-size: 1.25em;
+					text-decoration: none;
+					}
+
+					&:hover{
+						color:$yellow;
+					}
+				}
+		}
+
+
+	.footer-logo{
+
+	}
+
+	
+	.site-info {
+		text-align: center;
+		font-family: $serif;
+		font-weight: 100;
+		font-size: 1.25em;
+		padding: 0.1em;
+	}
+}
