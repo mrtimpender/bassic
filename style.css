@@ -233,12 +233,22 @@ body {
 .screen-reader-text {
   display: none; }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #1BE7FF; }
+
 a {
   -webkit-transition: all 333ms ease-in-out;
-          transition: all 333ms ease-in-out; }
+          transition: all 333ms ease-in-out;
+  color: #615F68;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  font-size: 1.25em; }
+  a:hover {
+    color: #F7901E; }
 
 #masthead {
-  background-color: blue; }
+  background-color: #1D1A21; }
 
 #site-logo {
   float: left;
@@ -252,40 +262,36 @@ a {
   float: right; }
   #site-navigation .menu-item {
     display: inline-block;
-    margin-left: 1em; }
-    #site-navigation .menu-item a {
-      color: black;
-      font-family: "Roboto Slab", serif;
-      font-weight: 100;
-      font-size: 1.25em;
-      text-decoration: none; }
-    #site-navigation .menu-item:hover {
-      color: #ffff00; }
+    margin-left: 1em
+    	/* 
+    		a{
+    		color: black;
+    		
+    		}
+    
+    		&:hover{
+    			color: $yellow;
+    		}
+     */ }
 
 .menu-toggle {
   display: none; }
 
 #colophon {
-  background: #414141;
-  color: white; }
+  background: #1D1A21; }
   #colophon .menu {
     text-align: right; }
     #colophon .menu .menu-item {
       display: inline-block;
       margin-left: 1em; }
-      #colophon .menu .menu-item a {
-        color: black;
-        font-family: "Roboto Slab", serif;
-        font-weight: 100;
-        font-size: 1.25em;
-        text-decoration: none; }
-      #colophon .menu .menu-item:hover {
-        color: #ffff00; }
+  #colophon #footer-logo:hover {
+    color: #1D1A21; }
   #colophon .site-info {
     text-align: center;
+    color: #F3E0EC;
     font-family: "Roboto Slab", serif;
     font-weight: 100;
-    font-size: 1.25em;
+    font-size: 0.95em;
     padding: 0.1em; }
 
 .hero {

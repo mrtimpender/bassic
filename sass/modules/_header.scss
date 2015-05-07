@@ -1,5 +1,5 @@
 #masthead {
-	background-color:blue;
+	background-color:$darkgrey;
 }
 
 #site-logo {
@@ -18,19 +18,16 @@
 	.menu-item{
 		display: inline-block;
 		margin-left: 1em;
-	
+	/* 
 		a{
 		color: black;
-		font-family: $serif;
-		font-weight: 100;
-		font-size: 1.25em;
-		text-decoration: none;
+		
 		}
 
 		&:hover{
 			color: $yellow;
 		}
-
+ */
 	}
 }
 

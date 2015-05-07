@@ -26,6 +26,7 @@
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 			    <img id="site-logo" src="<?php bloginfo('template_directory'); ?>/images/logo-header.png" alt="Your Image Description Here" />
+			    <h1>Von Arden Productions</h1>
 			</a>
 		</div><!-- .site-branding -->
 

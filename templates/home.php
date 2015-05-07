@@ -44,7 +44,7 @@ get_header(); ?>
 
 				<!-- Begin Portfolio -->
 				<div class="portfolio">
-    				<h2 class="portfolio-headline">Oooo Lala!</h2>
+    				<h2 class="portfolio-headline">Portfolio</h2>
 
     				<div class="row">
 
