@@ -4,12 +4,18 @@
 
 #site-logo {
 	float:left;
-	width:150px;
+	width:50px;
+
+	&:hover{
+		opacity: 0.4;
+	}
+
 }
 
 #site-branding{
 	float:left;
 	width: 400px;
+	display:inline-block;
 }
 
 #site-navigation{

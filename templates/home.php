@@ -102,8 +102,6 @@ get_header(); ?>
 				</div>
 				<!-- End Blog -->
 
-				
-
 			<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->

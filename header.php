@@ -25,8 +25,8 @@
 	<div class="row">
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			    <img id="site-logo" src="<?php bloginfo('template_directory'); ?>/images/logo-header.png" alt="Your Image Description Here" />
-			    <h1>Von Arden Productions</h1>
+			    <img id="site-logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Von Arden Productions" />
+			    <h2>Von Arden Productions</h2>
 			</a>
 		</div><!-- .site-branding -->
 
