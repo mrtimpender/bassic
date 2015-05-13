@@ -37,12 +37,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "type/headings";
 @import "type/links";
 
-// Header
+// Modules
 @import "modules/header";
 @import "modules/footer";
 
+
 // Templates
 @import "templates/home";
+@import "templates/about";
 @import "templates/portfolio";
 @import "templates/archive-portfolio";
 @import "templates/single-portfolio";

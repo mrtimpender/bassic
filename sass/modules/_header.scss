@@ -1,21 +1,32 @@
 #masthead {
-	background-color:$darkgrey;
+	background: $black;
+	/* position: fixed;
+	width:100%;
+	background: transparent;
+	z-index: 1000; */
+	padding: 0 0 0.5em 0;
 }
 
 #site-logo {
 	float:left;
-	width:50px;
+	width:35px;
 
 	&:hover{
-		opacity: 0.4;
+		opacity: 1.5;
 	}
 
 }
 
 #site-branding{
 	float:left;
-	width: 400px;
 	display:inline-block;
+	margin-top: 0.3em;
+}
+
+.site-branding-text{
+	font-size: 1.5em;
+	margin-top: 0.5em;
+	margin-left: 1.25em;
 }
 
 #site-navigation{
@@ -23,7 +34,7 @@
 
 	.menu-item{
 		display: inline-block;
-		margin-left: 1em;
+		margin: 0 0 2em 1em;
 	/* 
 		a{
 		color: black;

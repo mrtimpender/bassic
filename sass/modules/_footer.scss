@@ -1,31 +1,21 @@
 #colophon {
 	background: $darkgrey;
+	text-align: center;
+	padding: 1em;
 
 	.menu {
-			text-align:right;
 
 				.menu-item{
-				display: inline-block;
-				margin-left: 1em;
-
+				display: inline;
+				margin-right: 2em;
 				}
 		}
 
-
-#footer-logo{
-
-	&:hover{
-		color: $blue;
-	}
-}
-
 	
 	.site-info {
-		text-align: center;
-		color: $white;
+		color: $grey;
 		font-family: $serif;
 		font-weight: 100;
 		font-size: 0.95em;
-		padding: 0.1em;
 	}
 }

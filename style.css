@@ -261,24 +261,34 @@ a {
     color: #F7901E; }
 
 #masthead {
-  background-color: #1D1A21; }
+  background: #000000;
+  /* position: fixed;
+  width:100%;
+  background: transparent;
+  z-index: 1000; */
+  padding: 0 0 0.5em 0; }
 
 #site-logo {
   float: left;
-  width: 50px; }
+  width: 35px; }
   #site-logo:hover {
-    opacity: 0.4; }
+    opacity: 1.5; }
 
 #site-branding {
   float: left;
-  width: 400px;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 0.3em; }
+
+.site-branding-text {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-left: 1.25em; }
 
 #site-navigation {
   float: right; }
   #site-navigation .menu-item {
     display: inline-block;
-    margin-left: 1em
+    margin: 0 0 2em 1em
     	/* 
     		a{
     		color: black;
@@ -294,32 +304,33 @@ a {
   display: none; }
 
 #colophon {
-  background: #1D1A21; }
-  #colophon .menu {
-    text-align: right; }
-    #colophon .menu .menu-item {
-      display: inline-block;
-      margin-left: 1em; }
-  #colophon #footer-logo:hover {
-    color: #1BE7FF; }
+  background: #1D1A21;
+  text-align: center;
+  padding: 1em; }
+  #colophon .menu .menu-item {
+    display: inline;
+    margin-right: 2em; }
   #colophon .site-info {
-    text-align: center;
-    color: #F3E0EC;
+    color: #615F68;
     font-family: "Roboto Slab", serif;
     font-weight: 100;
-    font-size: 0.95em;
-    padding: 0.1em; }
+    font-size: 0.95em; }
 
 .hero {
-  padding: 8em 0;
+  padding: 5em 0 20em 0;
+  margin: 0 0 2em 0;
   text-align: center;
-  color: white;
+  color: #F3E0EC;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-attachment: scroll !important; }
+  background-attachment: scroll !important;
+  position: relative; }
   html.touch .hero {
     background-attachment: scroll !important; }
+
+.about-hero {
+  width: 100%; }
 
 .portfolio {
   padding: 4em; }

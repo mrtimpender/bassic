@@ -26,14 +26,15 @@
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 			    <img id="site-logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Von Arden Productions" />
-			    <h2>Von Arden Productions</h2>
+			    <div class="site-branding-text"> Von Arden Productions</div>
 			</a>
-		</div><!-- .site-branding -->
+
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Primary Menu', 'bassic' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+				</div><!-- .site-branding -->
 	</div>
 	</header><!-- #masthead -->
 
