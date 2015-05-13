@@ -9,18 +9,37 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
-	<div class="row">
+	
 		<?php while ( have_posts() ) : the_post(); ?>
+
+		<div class="row">
 
 			<h2><?php the_title(); ?></h2>
 			
 			<div class="categories"><?php echo get_the_category_list(', '); ?> </div>
 
-			<img class="portfolio-hero" src="<?php the_field('portfolio_hero_image'); ?>">
-
 			<p class="intro"><?php the_field('portfolio_introduction_text'); ?></p>
 
+		</div>
+
+
+
+		<div class="portfolio-hero">
+					
+			<?php
+				$mediaType = get_field('media_type');
+
+			if ($mediaType == 'photo') { ?>
+
+				<img src="<?php the_field('portfolio_image'); ?>">
+
+			<?php } else {
+					the_field("portfolio_video"); 
+				} ?>
+
+		</div>
+
+			
 			<?php the_content(); ?>
 
 			<!-- Related Posts -->
@@ -58,10 +77,10 @@ get_header(); ?>
 			            <?php while( $my_query->have_posts() ) { $my_query->the_post();  // Begin Loop ?>
 
 			            <!-- Begin Related Post -->
-			                <div class="column third" style="background-image: url(<?php the_field('portfolio_image'); ?>);">
+			                <div class="column third">
 							    <div class="portfolio-color-overlay"></div>
 							    <h3 class="portfolio-title"><?php the_title(); ?></h3>
-							    <a class="portfolio-link" href="<?php the_permalink(); ?>"><span class="dashicons dashicons-arrow-right-alt"></span></a>
+							    <a class="portfolio-lcink" href="<?php the_permalink(); ?>"><span class="dashicons dashicons-arrow-right-alt"></span></a>
 							</div>
 			            <!-- End Related Post -->
 

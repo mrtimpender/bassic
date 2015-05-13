@@ -340,5 +340,8 @@ a {
 
 body.single-portfolio .portfolio-hero {
   width: 100%; }
+  body.single-portfolio .portfolio-hero iframe {
+    width: 100vw;
+    height: 56.49718vw; }
 
 /*# sourceMappingURL=style.css.map */
